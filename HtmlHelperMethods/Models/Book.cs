@@ -14,7 +14,7 @@ namespace HtmlHelperMethods.Models
         {
             var books = new List<Book>();
 
-            books.Add(new Book { BookId = 1, Title = "What about Bob", CopiesSold = 4, YearPublished = 2010, Price = 20, InStock = true, Availability = Availability.Pickup }
+            books.Add(new Book { BookId = 1, Title = "What about Bob", CopiesSold = 4, YearPublished = 2010, Price = 20, InStock = true, Availability = Availability.Pickup });
 
 
             return books;
